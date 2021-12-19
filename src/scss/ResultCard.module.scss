@@ -41,6 +41,11 @@ $mainTextColor: #28a75b;
             background-color: #032541;
             color: $mainTextColor;
             padding: 4px 16px;
+            border-radius: 4px;
+            &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+            }
         }
     }
 
