@@ -1,0 +1,32 @@
+
+.watchPage {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    .container {
+        padding-top: 40px;
+        position: relative;
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 16px;
+
+        .count {
+            font-size: 20px;
+            padding: 6px 24px;
+            border-radius: 8px;
+            position: absolute;
+            top:-16px;
+            right: -80px;
+        }
+        .count.movie {
+            background-color: #821723;
+            color: #fff;
+        }
+        .count.anime {
+            background-color: #b69c00;
+            color: #fff;
+        }
+    }
+    
+}

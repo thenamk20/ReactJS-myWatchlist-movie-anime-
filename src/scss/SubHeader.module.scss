@@ -1,0 +1,25 @@
+
+.subHeader {
+    position: absolute;
+    border-radius: 8px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    top: 0;
+    right: 0;
+    nav {
+        a {
+            line-height: 60px;
+            padding: 0 16px;
+            color: #fff;
+        }
+    }
+    
+}
+.movie {
+    background-color: #821723;
+}
+.anime {
+    background-color: #b69c00;
+}

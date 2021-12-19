@@ -1,0 +1,35 @@
+
+$backgroundColor : #032541;
+
+.mainHeader {
+
+    background-color:  $backgroundColor;
+    
+    .navWrapper {
+        height: 60px;
+        font-size: 24px;
+        font-weight: bold;
+
+        ul {
+            display: flex;
+            border: 1px solid #fff;
+
+            li {
+                line-height:60px;
+                padding: 0 16px;
+                list-style-type: none;
+
+                a {
+                    color: #28a75b
+                }
+                &:hover {
+                    a {
+                        color: #fff;
+                    }
+                }
+                
+            }
+        }
+    }
+
+}
